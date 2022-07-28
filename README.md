@@ -2,9 +2,9 @@
  - [Home Chef Technical Interview Philosophy](#Home-Chef-Tech-Candidate-Interview-Process) 
  - [Home Chef Tech Candidate Interview Process](#Home-Chef-Technical-Interview-Philosophy)
  - [Candidate Technical Interview Prep Guide](#Candidate-Technical-Interview-Prep-Guide)
- - [Candidate Technical Interview Setup Guide](#CandidateTechnical-Interview-Setup-Guide)
-    - [Mac Interview Set Up Instructions Only](#Mac-Interview-Set-Up-Instructions-Only) **TODO BEFORE INTERVIEW**
-    - [Windows Interview Set Up Instructions Only](#Windows-Interview-Set-Up-Instructions-Only) **TODO BEFORE INTERVIEW**
+ - [Candidate Technical Interview Setup Guide](#Candidate-Technical-Interview-Setup-Guide)
+    - [Mac Interview Set Up Instructions Only](#Mac-Setup) **TODO BEFORE INTERVIEW**
+    - [Windows Interview Set Up Instructions Only](#Windows-Setup) **TODO BEFORE INTERVIEW**
  - [Helpful Debugging Commands](#Helpful-Debugging-Commands)
 
 ---
