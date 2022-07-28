@@ -61,7 +61,7 @@ Our technical interview is designed so you can make progress on it regardless of
     HostName EC2_INSTANCE_URL_GOES_HERE
     User candidate
     LocalForward 3000 localhost:3000
-    LocalForward 3001 localhost:3001```
+    LocalForward 3001 localhost:3001
 - Open VS Code
 - Command + Shift + P and enter `Remote-SSH: Connect to Host`
 - Select `hc-interview`
@@ -92,7 +92,7 @@ Our technical interview is designed so you can make progress on it regardless of
     HostName EC2_INSTANCE_URL_GOES_HERE
     User candidate
     LocalForward 3000 localhost:3000
-    LocalForward 3001 localhost:3001```
+    LocalForward 3001 localhost:3001
 - Open VS Code
 - Press `F1` and enter `Remote-SSH: Connect to Host`
 - Select `hc-interview`
