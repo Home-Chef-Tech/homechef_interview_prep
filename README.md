@@ -26,7 +26,7 @@ If you are not sure where you are in this process or it has been an extended per
 
 During the technical interview our goal is to see what it is like to work with you. You may not complete the exercise in full, and that’s perfectly fine. We have specifically designed our interview to better understand how you think and what it’s would be like to work with you in something close to the environment that we would share if you are hired.  
 
-We won't ask you a leetcode problem or to code merge sort or a red black tree from scratch. Our technical interview will involve you pairing with two of our engineers and working through a ticket we've complete on our internal apps team recently. Our goal is to give you enough time so you are able to ask questions, get the necessary context needed, and make progress on the problem, ideally, without feeling like you are racing against the clock. 
+We won't ask you a Leetcode problem or to code merge sort or a red black tree from scratch. Our technical interview will involve you pairing with two of our engineers and working through a ticket we've complete on our internal apps team recently. Our goal is to give you enough time so you are able to ask questions, get the necessary context needed, and make progress on the problem, ideally, without feeling like you are racing against the clock. 
 
 # Candidate Technical Interview Prep Guide:
 
@@ -53,7 +53,7 @@ Our technical interview is designed so you can make progress on it regardless of
     If `.ssh` **DOES NOT** exist:
     - In root directory (~), `mkdir .ssh` 
     - `ls .ssh`
-    - inside `~/.ssh`, `touch config`
+    - Inside `~/.ssh`, `touch config`
 	If `.ssh` **DOES** already exist, proceed to next steps:
 - Open config file
 - Paste connection info into the `config` file and save config file. Your interviewer will send you the connection info, but see example below:
@@ -86,7 +86,7 @@ Our technical interview is designed so you can make progress on it regardless of
     If `.ssh` **DOES NOT** exist:
     - In root directory (~), `mkdir .ssh` 
     - `ls .ssh`
-    - inside `~/.ssh`, `touch config`
+    - Inside `~/.ssh`, `touch config`
 	If `.ssh` **DOES** already exist, proceed to next steps:
 - Open config file
 - Paste connection info into the `config` file and save config file. Your interviewer will send you the connection info, but see example below:
