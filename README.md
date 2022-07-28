@@ -11,6 +11,8 @@
 
 *This repo is designed for candidates who are currently in process with Home Chef. If you stumbled across this guide and think interviewing with us might be fun, please reach out to `hr@homechef.com`.*
 
+---
+
 # The Technical Interview Process
 
 Our goal is to ensure you have a great candidate experience while moving through our interview process. On average, our process takes two weeks to complete. Occasionally steps are adjusted/added/removed, but typically the interview is as follows:
@@ -18,7 +20,7 @@ Our goal is to ensure you have a great candidate experience while moving through
  1. Phone call with recruiter or engineering manager - .5 hours
  2. Behavioral interview with 2 Home Chef engineers - 1.5 hours
  3. Technical interview pairing with 2 Home Chef engineers on a real-life ticket - 2 hours
- 4. Hire or no hire decision is made within ~72 hours of the technical interview
+ 4. Hiring decision is made within ~72 hours of the technical interview
 
 If you are not sure where you are in this process or it has been an extended period of time since you last heard from us, please reach out to `hr@homechef.com`
 
