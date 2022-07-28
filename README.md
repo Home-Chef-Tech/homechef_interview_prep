@@ -1,15 +1,15 @@
 # Table of Contents:
- - Home Chef Technical Interview Philosophy
+ - [Home Chef Technical Interview Philosophy](#Home-Chef-Tech-Candidate-Interview-Process) 
  - Home Chef Tech Candidate Interview Process
  - Candidate Technical Interview Prep Guide
  - Candidate Technical Interview Setup Guide
-  - Mac Interview Set Up Instructions Only
-  - Windows Interview Set Up Instructions Only
+    - Mac Interview Set Up Instructions Only *** TODO BEFORE INTERVIEW ***
+    - Windows Interview Set Up Instructions Only *** TODO BEFORE INTERVIEW ***
  - Helpful Debugging Commands
 
 ---
 
-*** This repo is designed for candidate who are currently in process with Home Chef. If you stumbled across this interview and are curious about Home Chef and think interviewing with us might be fun please reach out to `hr@homechef.com` ***
+*This repo is designed for candidate who are currently in process with Home Chef. If you stumbled across this interview and are curious about Home Chef and think interviewing with us might be fun please reach out to `hr@homechef.com`*
 
 # Home Chef Tech Candidate Interview Process:
 
@@ -42,10 +42,12 @@ Our technical interview is designed so you can make progress on it regardless of
 
 # Candidate Technical Interview Setup Guide:
 # Mac Setup:
-  **TODO BEFORE THE INTERVIEW:**
+
+**TODO BEFORE THE INTERVIEW:**
 - Install [VS code](https://code.visualstudio.com/Download)
 - Add/install Microsoft's "[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)" extension
-  **TODO WITH YOUR INTERVIEWER:**
+
+**TODO WITH YOUR INTERVIEWER:**
 - Create ssh config file *if one does not already exist*
 	- Navigate to root directory '~'. `cd ~`
     If `.ssh` **DOES NOT** exist:
@@ -53,14 +55,14 @@ Our technical interview is designed so you can make progress on it regardless of
     - `ls .ssh`
     - inside `~/.ssh`, `touch config`
 	If `.ssh` **DOES** already exist, proceed to next steps:
-- open config file
-- paste connection info into the `config` file and save config file. Your interviewer will send you the connection info, but see example below:
+- Open config file
+- Paste connection info into the `config` file and save config file. Your interviewer will send you the connection info, but see example below:
   ex.
-    ```Host hc-interview
-      HostName EC2_INSTANCE_URL_GOES_HERE
-      User candidate
-      LocalForward 3000 localhost:3000
-      LocalForward 3001 localhost:3001```
+  ```Host hc-interview
+    HostName EC2_INSTANCE_URL_GOES_HERE
+    User candidate
+    LocalForward 3000 localhost:3000
+    LocalForward 3001 localhost:3001```
     
 - Open VS Code
 - Command + Shift + P and enter `Remote-SSH: Connect to Host`
@@ -72,10 +74,13 @@ Our technical interview is designed so you can make progress on it regardless of
 - You should now be able to see the files and code base we will be working in on the left side of the screen. Any code changes you make and save, your interviewers will be able to see. 
 
 # Windows Setup:
-  **TODO BEFORE THE INTERVIEW:**
+**TODO BEFORE THE INTERVIEW:**
+
 - Install [VS code](https://code.visualstudio.com/Download)
 - Add/install Microsoft's "[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)" extension
-  **TODO WITH YOUR INTERVIEWER:**
+
+**TODO WITH YOUR INTERVIEWER:**
+
 - Create ssh config file *if one does not already exist*
 	- Navigate to root directory 'C:\Users\Username'. `cd ~`
     If `.ssh` **DOES NOT** exist:
@@ -83,14 +88,14 @@ Our technical interview is designed so you can make progress on it regardless of
     - `ls .ssh`
     - inside `~/.ssh`, `touch config`
 	If `.ssh` **DOES** already exist, proceed to next steps:
-- open config file
-- paste connection info into the `config` file and save config file. Your interviewer will send you the connection info, but see example below:
+- Open config file
+- Paste connection info into the `config` file and save config file. Your interviewer will send you the connection info, but see example below:
   ex.
-    ```Host hc-interview
-      HostName EC2_INSTANCE_URL_GOES_HERE
-      User candidate
-      LocalForward 3000 localhost:3000
-      LocalForward 3001 localhost:3001```
+  ```Host hc-interview
+    HostName EC2_INSTANCE_URL_GOES_HERE
+    User candidate
+    LocalForward 3000 localhost:3000
+    LocalForward 3001 localhost:3001```
 
 - Open VS Code
 - Press `F1` and enter `Remote-SSH: Connect to Host`
@@ -105,7 +110,7 @@ If Windows Machine doesn't have an OpenSSH compatible SSH client, follow this gu
    - Install [an OpenSSH compatible SSH client](https://aka.ms/vscode-remote/ssh/supported-clients).
 
 # Disconnecting after interview:
-- Simply exist the VS Code terminal, and you will be disconnected from the ssh client.
+- Simply exit the VS Code terminal, and you will be disconnected from the ssh client.
 
 # Helpful Debugging Commands:
 
