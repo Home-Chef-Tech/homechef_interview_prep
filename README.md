@@ -61,3 +61,12 @@ If Windows Machine doesn't have an OpenSSH compatible SSH client, follow this gu
 
 # Disconnecting after interview:
 - Simply exist the VS Code terminal, and you will be disconnected from the ssh client.
+
+# Useful commands:
+
+- To run Rails Console:
+```docker exec -it $( docker ps | grep homechef_mealhand | awk "{print \$1}" | head -n 1 ) rails c```
+
+- To attach a shell to the mealhand container in order to use ```binding.pry```:
+```binding.pry:
+docker attach $( docker ps | grep homechef_mealhand | awk "{print \$1}" | head -n 1```
