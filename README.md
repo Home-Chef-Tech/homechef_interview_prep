@@ -1,4 +1,3 @@
-`
 # Candidate Tech Interview Guide
 
 # Mac Setup:
