@@ -69,4 +69,4 @@ If Windows Machine doesn't have an OpenSSH compatible SSH client, follow this gu
 
 - To attach a shell to the mealhand container in order to use ```binding.pry```:
 ```binding.pry:
-docker attach $( docker ps | grep homechef_mealhand | awk "{print \$1}" | head -n 1```
+```docker attach $( docker ps | grep homechef_mealhand | awk "{print \$1}" | head -n 1```
