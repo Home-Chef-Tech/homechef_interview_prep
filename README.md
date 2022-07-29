@@ -48,10 +48,10 @@ Our technical interview is designed so you can make progress on it regardless of
 
 #### To complete along with your interviewer:
 1. Create ssh config file *if one does not already exist* (if `.ssh` **DOES** already exist, proceed to Step 2).
-	1. Navigate to root directory: `cd ~`
-  2. In root directory (~), `mkdir .ssh`
-  3. `ls .ssh`
-  4. Inside `~/.ssh`, `touch config`
+    1. Navigate to root directory: `cd ~`
+    2. In root directory (~), `mkdir .ssh`
+    3. `ls .ssh`
+    4. Inside `~/.ssh`, `touch config`
 2. Your interviewer will send you some connection information to paste into this newly created config file. Open it up, paste the connection info, then save. Example:
   ```Host hc-interview
     HostName EC2_INSTANCE_URL_GOES_HERE
