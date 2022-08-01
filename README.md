@@ -3,8 +3,8 @@
  - [Home Chef Tech Candidate Interview Process](#Home-Chef-Technical-Interview-Philosophy)
  - [Candidate Technical Interview Prep Guide](#Candidate-Technical-Interview-Prep-Guide)
  - [Candidate Technical Interview Setup Guide](#Candidate-Technical-Interview-Setup-Guide)
-    - [Mac Interview Set Up Instructions Only](#Mac-Setup) **TODO BEFORE INTERVIEW**
-    - [Windows Interview Set Up Instructions Only](#Windows-Setup) **TODO BEFORE INTERVIEW**
+    - [Mac Interview Set Up Instructions Only](#Mac-Setup) | **TODO BEFORE INTERVIEW**
+    - [Windows Interview Set Up Instructions Only](#Windows-Setup) | **TODO BEFORE INTERVIEW**
  - [Helpful Debugging Commands](#Helpful-Debugging-Commands)
 
 ---
@@ -61,7 +61,7 @@ Our technical interview is designed so you can make progress on it regardless of
     HostName EC2_INSTANCE_URL_GOES_HERE
     User candidate
     LocalForward 3000 localhost:3000
-    LocalForward 3001 localhost:3001```
+    LocalForward 3001 localhost:3001
 - Open VS Code
 - Command + Shift + P and enter `Remote-SSH: Connect to Host`
 - Select `hc-interview`
@@ -92,7 +92,7 @@ Our technical interview is designed so you can make progress on it regardless of
     HostName EC2_INSTANCE_URL_GOES_HERE
     User candidate
     LocalForward 3000 localhost:3000
-    LocalForward 3001 localhost:3001```
+    LocalForward 3001 localhost:3001
 - Open VS Code
 - Press `F1` and enter `Remote-SSH: Connect to Host`
 - Select `hc-interview`
