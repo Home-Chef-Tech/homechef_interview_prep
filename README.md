@@ -9,7 +9,7 @@
 
 ---
 
-*This repo is designed for candidates who are currently in process with Home Chef. If you stumbled across this guide and think interviewing with us might be fun, please reach out to `hr@homechef.com`.*
+*This repo is designed for candidates currently in the interview process with Home Chef. If you stumbled across this guide and think interviewing with us might be fun, please reach out to `hr@homechef.com`.*
 
 ---
 
@@ -34,7 +34,7 @@ Our technical interview involves pairing with two of our engineers and working t
 
 At Home Chef our tech stack is a mix of React, Redux, HTML, CSS (Tailwind), HAML/Rails views, and JavaScript on the front end. We use a Ruby on Rails back end with a PostgreSQL database. We don't expect you to be an expert in these things.
 
-Our technical interview is designed so you can make progress on it regardless of your specific technical background or level of experience. That being said, being familiar with the concepts and tools below may be helpful during the technical interview:
+Our technical interview is designed so you can make progress on it regardless of your specific technical background or level of experience. That being said, familiarity with the concepts and tools below may be helpful during the technical interview:
   - Basic CRUD app functionality
   - Interacting with APIs (making GET/POST requests)
   - React and React Hooks, including state management
@@ -52,10 +52,10 @@ Our technical interview is designed so you can make progress on it regardless of
 2. Your interviewer will send you some connection information to paste into this config file. Open it up, paste the connection info, then save. Example:
     ```
     Host hc-interview
-    HostName EC2_INSTANCE_URL_GOES_HERE
-    User candidate
-    LocalForward 3000 localhost:3000
-    LocalForward 3001 localhost:3001
+      HostName EC2_INSTANCE_URL_GOES_HERE
+      User candidate
+      LocalForward 3000 localhost:3000
+      LocalForward 3001 localhost:3001
     ```
 3. Open VS Code, then Command + Shift + P and enter `Remote-SSH: Connect to Host`
 4. Select `hc-interview`. A new VS Code tab will open and ask you to enter a password in the dropdown. The password is `candidate`.
@@ -75,10 +75,10 @@ Our technical interview is designed so you can make progress on it regardless of
 2. Your interviewer will send you some connection information to paste into this config file. Open it up, paste the connection info, then save. Example:
     ```
     Host hc-interview
-    HostName EC2_INSTANCE_URL_GOES_HERE
-    User candidate
-    LocalForward 3000 localhost:3000
-    LocalForward 3001 localhost:3001
+      HostName EC2_INSTANCE_URL_GOES_HERE
+      User candidate
+      LocalForward 3000 localhost:3000
+      LocalForward 3001 localhost:3001
     ```
 3. Open VS Code, then press `F1` and enter `Remote-SSH: Connect to Host`
 4. Select `hc-interview`. A new VS Code tab will open and ask you to enter a password in the terminal. The password is `candidate`.
