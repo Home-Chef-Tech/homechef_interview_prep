@@ -104,6 +104,6 @@ Simply exit the VS Code terminal, and you will be disconnected from the SSH clie
 
 ```docker exec -it $( docker ps | grep homechef_mealhand | awk "{print \$1}" | head -n 1 ) rails c```
 
-- To attach a shell to the container in order to use `binding.pry`:
+- To attach a shell to the mealhand container in order to use `binding.pry`:
 
 ```docker attach $( docker ps | grep homechef_mealhand | awk "{print \$1}" | head -n 1```
