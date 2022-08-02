@@ -70,8 +70,8 @@ Our technical interview is designed so you can make progress on it regardless of
 2. Add/install Microsoft's "[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)" extension.
 
 #### To complete along with your interviewer:
-1. Create ssh config file: `touch ~/.ssh/config`
-    Note: If you get the error "No such file for directory," create the directory by running `mkdir ~/.ssh`, then re-run the above command.
+1. Create ssh config file: `type null >> ~/.ssh/config`
+    Note: If you get the error "The system cannot find the path specified." create the directory by running `mkdir ~/.ssh`, then re-run the above command.
 2. Your interviewer will send you some connection information to paste into this config file. Open it up, paste the connection info, then save. Example:
     ```
     Host hc-interview
