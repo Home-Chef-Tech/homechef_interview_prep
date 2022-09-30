@@ -26,9 +26,11 @@ If you are not sure where you are in this process or it has been an extended per
 
 # Our Interview Philosophy
 
-During the technical interview, our goal is to see what it is like to work with you. You may not complete the exercise in full, and that’s perfectly fine. We have specifically designed our interview to better understand how you think and what it would be like to work with you &mdash; in something close to the environment that we would share if you were hired.
+During the technical interview, our goal is to see what it is like to work with you. You may not complete the exercise in full, and that’s perfectly fine. We have specifically designed our interview to better understand how you think and what it would be like to work with you &mdash; in something close to the environment that we would share if you were hired.\
 
-Our technical interview involves pairing with two of our engineers and working through a ticket we've completed recently. Our goal is to give you enough time so you are able to ask questions, get the necessary context needed, and make progress on the problem, ideally without feeling like you are racing against the clock.
+## Pairing
+
+Our technical interview involves pairing with two of our engineers and working through a ticket we've completed recently. Our definition of pairing means you are leading the session. The Home Chef Engineers are there to help you succeed by providing the necessary context, available as a resource to ask questions, and can help you with any code syntax. We want you to be as vocal as you can throughout the interview. Take us into your thought process by sharing how you will approach the problem, articulating tradeoffs, and why you are writing the code you are writing. Remember the objective of this interview is to learn what it is like to work with you. Our goal is to create an environment where you feel confident to best display your skills, can understand what it is like to work on our real code base, and do not feel like you are racing against the clock. 
 
 # Technical Interview Prep Guide
 
