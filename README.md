@@ -26,7 +26,7 @@ If you are not sure where you are in this process or it has been an extended per
 
 # Our Interview Philosophy
 
-During the technical interview, our goal is to see what it is like to work with you. You may not complete the exercise in full, and that’s perfectly fine. We have specifically designed our interview to better understand how you think and what it would be like to work with you &mdash; in something close to the environment that we would share if you were hired.\
+During the technical interview, our goal is to see what it is like to work with you. You may not complete the exercise in full, and that’s perfectly fine. We have specifically designed our interview to better understand how you think and what it would be like to work with you &mdash; in something close to the environment that we would share if you were hired.
 
 ## Pairing
 
